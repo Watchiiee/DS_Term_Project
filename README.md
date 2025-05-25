@@ -1,4 +1,4 @@
-# 🛡️ DetectSIM_Term_Project: Network Intrusion Detection with Machine Learning
+# 🛡️ SIM Swapping Attack Detection and Risk Prediction Model
 
 > **데이터과학 팀프로젝트 | 2025년 1학기**
 
