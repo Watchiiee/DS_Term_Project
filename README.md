@@ -17,17 +17,19 @@
 
 ## 📁 폴더/파일 구조
 
-📦 DS_Term_Project/
-├── DS_term/ # 대형 데이터셋 경로 (GitHub에는 제외됨)
-│ └── README.txt # → 다운로드 경로 안내
-├── Data_cleaning.py # 데이터 정제 스크립트
+```
+DS_Term_Project/
+├── DS_term/                      # 대형 데이터셋 경로 (GitHub에는 제외됨)
+│   └── README.txt                # → 다운로드 경로 안내
+├── Data_cleaning.py             # 데이터 정제 스크립트
 ├── Data_collection_selection.py # 데이터 수집 및 선택
-├── Data_preprocessing.py # 스케일링/인코딩 처리
-├── Feature_Engineering.py # 피처 생성 및 선택
-├── Modeling.py # 머신러닝 모델 학습
+├── Data_preprocessing.py        # 스케일링/인코딩 처리
+├── Feature_Engineering.py       # 피처 생성 및 선택
+├── Modeling.py                  # 머신러닝 모델 학습
 ├── ZDataScience_TermProject.ipynb # 전체 과정 통합 노트북
-├── ReadMe.docx # 보고서 제출용 Word 문서
-└── README.md # 프로젝트 설명
+├── ReadMe.docx                  # 보고서 제출용 Word 문서
+└── README.md                    # 프로젝트 설명
+```
 
 ## 📂 데이터셋 다운로드
 
