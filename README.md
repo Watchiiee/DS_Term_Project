@@ -1,9 +1,10 @@
-# 🛡️ DS Term Project: Network Intrusion Detection with Machine Learning
+# 🛡️ DetectSIM_Term_Project: Network Intrusion Detection with Machine Learning
 
 > **데이터과학 팀프로젝트 | 2025년 1학기**
 
-본 프로젝트는 UNSW-NB15 네트워크 트래픽 데이터를 기반으로,  
-정상/비정상 트래픽을 분류하는 머신러닝 모델을 구축하는 것을 목표로 합니다.
+통신사 유심 해킹(SIM 스와핑)을 통한 개인정보 탈취, 메신저 피싱 및 금융사기 사고가 증가하고 있습니다.  
+SIM이 부정 재발급될 경우 공격자가 정상 사용자로 인증받아 SNS, 계좌 접근이 가능해지는 문제를 해결하기 위해  
+본 프로젝트는 **네트워크 접속 로그 기반 이상행위 탐지 시스템**을 설계하였습니다.
 
 ---
 
