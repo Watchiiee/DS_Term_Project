@@ -39,7 +39,7 @@ DS_Term_Project/
 📁 `DS_term/README.txt` 파일을 참고하여 아래 Google Drive 링크에서 다운로드 후  
 `DS_term/` 폴더 안에 직접 넣어주세요.
 
-🔗 [Google Drive 다운로드 링크](https://drive.google.com/your-dataset-link)
+🔗 [Google Drive 다운로드 링크](https://drive.google.com/file/d/1YRLLAwKySsMCIP2-q3hWadUGNGdSwVYj/view?usp=drive_link)
 
 ---
 
@@ -59,8 +59,7 @@ DS_Term_Project/
 - 총 17개 수치형 + 13개 범주형 피처 선정
 
 ### 4. 모델링
-- 모델: Logistic Regression, Random Forest
-- 정확도: **99% / 100%**
+- 모델: Linear Regression, Logistic Regression, Random Forest, Decision Tree, PCA  Regression
 
 ---
 
