@@ -6,7 +6,7 @@ GitHub의 파일 용량 제한(100MB)을 초과하여 제외하였습니다.
 전체 데이터셋은 아래 링크에서 다운로드할 수 있습니다:
 
 🔗 Google Drive 다운로드 링크:
-https://drive.google.com/file/d/1mP9px6sX5wvK1KW3pq-ZxHAKFIpFWCEG/view?usp=drive_link
+https://drive.google.com/file/d/1YRLLAwKySsMCIP2-q3hWadUGNGdSwVYj/view?usp=drive_link
 
 다운로드 후, 이 폴더 안에 직접 넣어주세요:
 
