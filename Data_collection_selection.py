@@ -10,10 +10,10 @@ def load_dataset():
       "ct_src_dport_ltm", "ct_dst_sport_ltm", "ct_dst_src_ltm", "attack_cat", "Label"
   ]
 
-  df1 = pd.read_csv("DS_term/UNSW-NB15_1.csv", header=None, names=column_names, low_memory=False)
-  df2 = pd.read_csv("DS_term/UNSW-NB15_2.csv", header=None, names=column_names, low_memory=False)
-  df3 = pd.read_csv("DS_term/UNSW-NB15_3.csv", header=None, names=column_names, low_memory=False)
-  df4 = pd.read_csv("DS_term/UNSW-NB15_4.csv", header=None, names=column_names, low_memory=False)
+  df1 = pd.read_csv("/DS_term/UNSW-NB15_1.csv", header=None, names=column_names, low_memory=False)
+  df2 = pd.read_csv("/DS_term/UNSW-NB15_2.csv", header=None, names=column_names, low_memory=False)
+  df3 = pd.read_csv("/DS_term/UNSW-NB15_3.csv", header=None, names=column_names, low_memory=False)
+  df4 = pd.read_csv("/DS_term/UNSW-NB15_4.csv", header=None, names=column_names, low_memory=False)
 
   df1_0 = df1[df1['Label'] == 0]
   df2_0 = df2[df2['Label'] == 0]
@@ -35,7 +35,7 @@ def load_dataset():
   df_final = pd.concat([df_label0, df_label1])
   df_final = df_final.drop('attack_cat', axis=1)
 
-  df_final.to_csv("DS_term/1_Raw_DataSet.csv", index=False)
+  df_final.to_csv("/DS_term/1_Raw_DataSet.csv", index=False)
 
 if __name__ == '__main__':
   load_dataset()
