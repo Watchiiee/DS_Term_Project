@@ -46,8 +46,9 @@ DS_Term_Project/
 ## 🧪 주요 처리 과정
 
 ### 1. 데이터 수집 및 클렌징
-- 여러 raw CSV 병합 및 열 이름 정리
-- 결측치 처리, 중복 제거, Outlier 제거 (정상 트래픽만)
+- UNSW-NB15 네트워크 트래픽 데이터셋의 4개 CSV 파일 병합 및 컬럼명 정규화
+- 결측값(NaN) 처리 및 불필요 문자 제거 (ct_ftp_cmd 등)
+- 중복 데이터 제거 및 이상치(Outlier) 제거 (정상 트래픽 기준)
 
 ### 2. 전처리
 - 로그 + RobustScaler, StandardScaler, MinMaxScaler 사용
